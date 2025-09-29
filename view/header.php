@@ -10,6 +10,7 @@
         <nav>
             <a href="index.php?page=accueil">Accueil</a>
             <a href="index.php?page=orderProduct">Commander</a>
+            <a href="index.php?page=contact">contact</a>
         </nav>
     </header>
     <main>
