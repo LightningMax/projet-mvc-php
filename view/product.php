@@ -7,7 +7,7 @@
         <h2><?= htmlspecialchars($p['name']) ?></h2>
         <p>Prix : <?= number_format($p['price'],2,',',' ') ?> €</p>
         <p>
-          <a href="?page=produits&velo=<?= $p['id'] ?>">Plus d'infos</a>
+          <a href="index.php?page=velo&id=<?= $p['id'] ?>">Plus d'infos</a>
         </p>
       </article>
     <?php endforeach; ?>

@@ -10,6 +10,10 @@ switch($page) {
         include "controller/ProductController.php";
         afficherProduits();
         break;
+    case 'velo':
+        include "controller/ProductController.php";
+        afficherProduit();
+        break;
     case 'orderProduct':
       include_once('./controller/orderProductController.php');
       orderProduct();
