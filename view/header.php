@@ -9,6 +9,7 @@
     <header>
         <nav>
             <a href="index.php?page=accueil">Accueil</a>
+            <a href="index.php?page=orderProduct">Commander</a>
         </nav>
     </header>
     <main>
