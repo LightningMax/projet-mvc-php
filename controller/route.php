@@ -6,10 +6,14 @@ switch($page) {
     case 'accueil':
         include_once('view/accueil.php');
         break;
-    case 'orderProduct':
-        include_once('./controller/orderProductController.php');
-        orderProduct();
+    case 'produits':
+        include "controller/ProductController.php";
+        afficherProduits();
         break;
+    case 'orderProduct':
+      include_once('./controller/orderProductController.php');
+      orderProduct();
+      break;
     case 'contact':
         include "./controller/contactController.php";
         contact();
