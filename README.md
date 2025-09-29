@@ -11,6 +11,12 @@ CREATE TABLE product (
   image VARCHAR(255) NOT NULL
 );
 
+INSERT INTO product (name, description, price, image) VALUES
+('Bike5','Bike5 — le dernier né. Moteur 250W, autonomie 80km.','1499.00','public/images/bike1.jpg'),
+('BikeOne','BikeOne — ville & confort. Cadre alu, assistance douce.','1199.00','public/images/bike2.jpg'),
+('Bike22','Bike22 — sportif léger. Géométrie sport, frein disque.','999.00','public/images/bike3.jpg'),
+('BikeFirst','BikeFirst — entrée de gamme fiable. Batterie amovible.','799.00','public/images/bike4.jpg');
+
 CREATE TABLE orderProduct (
     id INT AUTO_INCREMENT PRIMARY KEY,
     product_id INT NOT NULL,
@@ -20,7 +26,6 @@ CREATE TABLE orderProduct (
     message TEXT,
     FOREIGN KEY (product_id) REFERENCES product(id)
 );
-```
 
 CREATE TABLE `contact` (
 `id` int NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -29,3 +34,4 @@ CREATE TABLE `contact` (
 `email` varchar(100) NOT NULL,
 `message` text NOT NULL
 );
+```
