@@ -4,7 +4,8 @@ $page = (isset($_GET['page']) ? $_GET['page'] : 'accueil');
 
 switch($page) {
     case 'accueil':
-        include_once('view/accueil.php');
+        include "./controller/accueilController.php";
+        accueil();
         break;
     case 'contact':
         include "./controller/contactController.php";
