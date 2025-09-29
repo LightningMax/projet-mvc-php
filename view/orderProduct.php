@@ -1,5 +1,5 @@
 <h1>Commander un produit</h1>
-<form action="submit_order.php" method="post">
+<form action="" method="post">
     <select name="product_id" id="velo" required>
         <option value="">Sélectionnez un vélo</option>
         <option value="1">Bike One</option>
