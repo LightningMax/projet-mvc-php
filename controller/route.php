@@ -7,7 +7,8 @@ switch($page) {
         include_once('view/accueil.php');
         break;
     case 'orderProduct':
-        include_once('view/orderProduct.php');
+        include_once('./controller/orderProductController.php');
+        orderProduct();
         break;
     case 'contact':
         include "./controller/contactController.php";
