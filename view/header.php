@@ -7,6 +7,7 @@
 </head>
 <body>
     <header>
+        <img src="./asset/picture/logo.png" alt="Logo de la marque">
         <nav>
             <a href="index.php?page=accueil">Accueil</a>
             <a href="index.php?page=orderProduct">Commander</a>
